@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <title>猜猜這是什麼</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="text-display">
+      規則很簡單，每點擊圖片的區塊一次，馬賽克部份的解析度就會增加，請試著用最少點擊次數猜測這張照片是什麼：
+      <p id="score-broad"></p>
+    </div>
+    <div id="main">
+      <div class="container" style="position: relative;">
+        <canvas id="game"></canvas>
+        <canvas id="grid"></canvas>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
